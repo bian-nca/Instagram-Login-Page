@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Caveat+Brush&family=Inconsolata:wght@600&family=Josefin+Sans:ital,wght@0,400;1,300&family=Montserrat:ital@1&family=Nunito&family=Open+Sans:ital@1&family=Oregano&family=PT+Sans&family=Patrick+Hand&family=Roboto:ital@1&family=Twinkle+Star&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(250, 250, 250);
+}
+
+.main {
+    align-items: center;
+    text-align: center;
+    
+}
+
+.box-insta {
+    padding-top: 33px;
+    padding-left: 37%;
+}
+
+.caixinha {
+    background: white;
+    width: 40%;
+    height: 406px;
+    border: 1px solid;
+    border-color: rgb(228, 215, 215);
+}
+
+.font-insta {
+    padding-top: 46px;
+}
+
+.inputs {
+    padding-top: 30px;
+
+}
+
+.input {
+    padding-top: 6px;
+}
+
+.input input {
+    background: rgba(250, 250, 250);
+    height: 38px;
+    width: 275px;
+    border-radius: 2px;
+    margin: none;
+    font-size: 11px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;    
+    border: 1px solid;
+    border-color: rgb(228, 215, 215);
+
+}
+
+.botao-entrar { 
+    padding-top: 14px;
+
+}
+
+.botao-entrar button {
+    background: rgba(178, 223, 252);
+    color: white;
+    width: 275px;
+    height: 32px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: none;
+  
+}
+
+.escolha {
+    padding-top: 2px;
+    padding-left: 34px;
+    color: rgb(143, 141, 139);
+}
+
+.linha1, .linha2, .ou {
+    display: inline-block;
+    float: left;
+    width: 30%;
+}
+
+.ou {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: none;
+}
+
+.linha1 {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+    background-color: gray;
+    height: 1px;
+    width:90px;
+}
+
+.linha2 {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+    background-color: gray;
+    height: 1px;
+    width: 90px; 
+}
+
+.botao-facebook button {
+    background: none;
+    border: none;
+    color: rgb(49, 90, 143);
+    font-weight: bolder;
+  
+}
+
+.face, .botao-facebook {
+    display: inline-block;
+}
+
+.botao-facebook button:hover {
+    cursor: pointer;
+}
+
+.botao-facebook img {
+    padding-top: 6px;
+    padding-left: 3px;
+    width: 20px;
+    height: 23px;
+}
+
+.button2  {
+    padding-left: 5px;
+    padding-top: 20px;
+
+}
+
+.esq-senha {
+    padding-top: 24px;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.esq-senha a {
+    color: rgb(46, 61, 110);
+    text-decoration: none;
+}
+
+.insta-box {
+    padding-top: 10px;
+}
+
+.Cadastro {
+    border: 1px solid;
+    height: 60px;
+    width: 40%;
+    border-color: rgb(228, 215, 215);
+    background: white;
+}
+
+.Cadastro a {
+    text-decoration: none;
+}
+
+.text {
+    padding-top: 19px;
+    color: rgb(53, 52, 52);
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text a {
+    color: rgb(46, 162, 224);
+    font-weight: bolder;
+}
+
+.apps {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(61, 61, 61);
+}
+
+.apps-imagens {
+    padding-top: 20px;
+}
+
+.ios, .android {
+    display: inline;
+}
+
+.ios img {
+    height: 40px;
+    width: 136px;
+}
+
+.android img {
+    height: 40px;
+    width: 134px;
+
+}
+
+footer{
+    padding-top:45px;
+    height:150px;
+}
+
+.top li {
+    display: inline-block;
+    font-size: 12px;
+    padding-left: 10px;
+    align-items: stretch;
+    position: relativa;
+    flex-direction: column;
+    line-height: 16px;
+    color: rgba(var(--f52, 142, 142, 142),1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.one, .two {
+    float: left;
+    width: 50%;
+}
+
+
+.bottom {
+    font-size: 12px;
+    flex-direction: column;
+    line-height: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(var(--f52, 142, 142, 142),1);
+    padding-top: 20px;
+    display: inline-block;
+}
+
+
+
+@media screen and (max-width:1330px) {
+
+.box-insta {
+    padding-left: 75px;
+    padding-right: 70px;
+}
+
+.caixinha {
+    width: 90%;    
+}
+
+.Cadastro {
+    width: 90%;
+}
+
+.apps-imagens {
+    padding-right: 30px;
+}
+
+.bota-facebook {
+    position: absolute;
+}
+}
+
+@media screen and (max-width:780px) {
+
+    .box-insta {
+        padding-left: 75px;
+        padding-right: 70px;
+       
+    }
+    
+    .caixinha {
+        width: 90%;    
+    }
+    
+    .Cadastro {
+        width: 90%;
+    }
+    
+    .apps-imagens {
+        padding-right: 30px;
+    }
+    
+    .bota-facebook {
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 674px) {
+
+
+.main {
+    padding-top: 25%;
+}
+    .box-insta {
+        padding-left: 140px;
+        padding-right: 70px;
+       
+    }
+    
+    .caixinha {
+        height: 450px;  
+        width: 390px;  
+    }
+    
+    .Cadastro {
+        width: 390px;
+    }
+
+    .linha1, .linha2, .ou {
+        display: inline-block;
+        float: left;
+        width: 30%;
+    }
+
+
+    .linha2 {
+        width: 85px;
+    }
+
+    .linha1 {
+        width: 80px;
+    }
+    .escolha {
+        padding-left: 58px;
+    }
+
+    .face {
+        padding-top: 40px;
+    }
+    .esq-senha {
+        padding-top: 40px;
+        font-size: 14px;
+    }
+
+    .apps-imagens {
+        padding-left: 20px;
+    }
+
+    .apps {
+        font-size: 15px;
+    }
+
+    .footer, .top, .bottom {
+        padding-left: 80px;
+    }
+}
+
+@media screen and (max-width:1303px) {
+
+    .main{
+        padding-left: ;
+    }
+  
+        .box-insta {
+            padding-left: 190px;
+            padding-right: 70px;
+           
+        }
+        
+        .caixinha {
+            height: 450px;  
+            width: 390px;  
+        }
+        
+        .Cadastro {
+            width: 390px;
+        }
+    
+        .linha1, .linha2, .ou {
+            display: inline-block;
+            float: left;
+            width: 30%;
+        }
+    
+    
+        .linha2 {
+            width: 85px;
+        }
+    
+        .linha1 {
+            width: 80px;
+        }
+        .escolha {
+            padding-left: 58px;
+        }
+    
+        .face {
+            padding-top: 40px;
+        }
+        .esq-senha {
+            padding-top: 40px;
+            font-size: 14px;
+        }
+    
+        .apps-imagens {
+            padding-left: 20px;
+        }
+    
+        .apps {
+            font-size: 15px;
+        }
+        
+        .obter {
+            width: 650px;
+        }
+
+}
+
+@media screen and (max-width:1298px) {
+
+  
+    .box-insta {
+        padding-left: 140px;
+        padding-right: 70px;
+       
+    }
+    
+    .caixinha {
+        height: 450px;  
+        width: 390px;  
+    }
+    
+    .Cadastro {
+        width: 390px;
+    }
+
+    .linha1, .linha2, .ou {
+        display: inline-block;
+        float: left;
+        width: 30%;
+    }
+
+
+    .linha2 {
+        width: 85px;
+    }
+
+    .linha1 {
+        width: 80px;
+    }
+    .escolha {
+        padding-left: 58px;
+    }
+
+    .face {
+        padding-top: 40px;
+    }
+    .esq-senha {
+        padding-top: 40px;
+        font-size: 14px;
+    }
+
+    .apps-imagens {
+        padding-left: 20px;
+    }
+
+    .apps {
+        font-size: 15px;
+    }
+
+
+
+}
+
+
+
+
+
+
